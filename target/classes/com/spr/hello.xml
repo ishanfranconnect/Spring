@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!-- class ka unique identification ke sath de de -->
+
+  <!-- IOC container -->
+  <bean class="com.spr.Student" name="s1">
+
+    <!-- property tag me jo vi app likhte ho uske help se set method call hota h -->
+    <!-- property khud set roll method ko call karta h or oh value ko dal deta h instance variable me -->
+    <property name="roll">
+        <value>145</value>
+     </property>
+
+   
+     <property name="name">
+        <value>Ishan</value>
+     </property>
+
+     <property name="city">
+        <value>Muzaffarpur</value>
+     </property>
+  </bean>
+  <bean class="com.spr.Student" name="s2">
+    <property name="roll">
+        <value>144</value>
+     </property>
+
+     <property name="name">
+        <value>Ishita</value>
+     </property>
+
+     <property name="city">
+        <value>pune</value>
+     </property>
+  </bean>
+</beans>
