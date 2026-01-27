@@ -5,16 +5,13 @@
   https://www.springframework.org/schema/beans/spring-beans.xsd">
 
   <!-- class ka unique identification ke sath de de -->
-
   <!-- IOC container -->
   <bean class="com.spr.Student" name="s1">
-
     <!-- property tag me jo vi app likhte ho uske help se set method call hota h -->
     <!-- property khud set roll method ko call karta h or oh value ko dal deta h instance variable me -->
     <property name="roll">
         <value>145</value>
      </property>
-
    
      <property name="name">
         <value>Ishan</value>
