@@ -6,6 +6,8 @@
 
   <!-- class ka unique identification ke sath de de -->
   <!-- IOC container -->
+
+  <!-- Spring, please create an object of Student class and keep it with the name student.” -->
   <bean class="com.spr.Student" name="s1">
     <!-- property tag me jo vi app likhte ho uske help se set method call hota h -->
     <!-- property khud set roll method ko call karta h or oh value ko dal deta h instance variable me -->

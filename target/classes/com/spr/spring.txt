@@ -1,0 +1,49 @@
+Spring → framework
+IoC Container → part of Spring that actually does the work
+
+Spring is a dependency injection framework which makes java application loosly coupled.
+
+spring ke pass jo IOC container oh sara kaam kar ke dega
+
+
+A Bean or spring bean is an object, and that object is created and managed by the Spring IoC container.
+
+it automatically means:
+created by Spring IoC container
+managed by Spring IoC container
+
+Spring cannot do this without the IoC container.
+
+A Spring Bean is an object, 
+and that object is created, configured, and managed by the Spring IoC container.
+
+IoC Container is a Spring component that creates, manages, and injects objects 
+instead of the programmer doing it manually.
+IOC container->Inversion of control -->work
+1. create object
+2. hold it in memory
+3. inject in another class
+
+
+What is IoC Container? (In very simple words)
+👉 IoC = Inversion of Control
+Normally in Java:
+You create objects using new
+You control when and how objects are created
+
+
+But in Spring:
+Spring creates the objects
+Spring manages them
+Spring gives them to you when needed
+This idea is called Inversion of Control (control is inverted from you → Spring).
+
+
+type of IOC Container
+1. BeanFactory ---> BeanFactory just gives objects when requested. Nothing extra
+                    BeanFactory is a basic IoC container
+
+2. ApplicationContext 
+
+
+

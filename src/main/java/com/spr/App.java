@@ -23,6 +23,17 @@ public class App
 // Because all this work is done by Spring, that object is called a:  // Spring Bean
 
         ApplicationContext ac=new ClassPathXmlApplicationContext("com/spr/hello.xml");
+        // ClassPathXmlApplicationContext is a class that implements ApplicationContext, reads the XML configuration file,
+        //  and contains the Spring IoC container which creates and manages beans.
+
+
+        // ac does NOT store Student objects
+        
+        // ac stores the IoC container
+        // The container internally stores beans
+        // getBean() fetches the object from the container
+
+
 
         // getBean() returns an object of type Object.
         // But we want to store that returned object into a Student reference variable.

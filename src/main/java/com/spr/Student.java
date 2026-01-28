@@ -4,7 +4,6 @@ public class Student {
 	private String name;
 	private String city;
 	
-	
 //	default constructor
 	public Student() {
 		super();
