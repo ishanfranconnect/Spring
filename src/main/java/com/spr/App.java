@@ -22,13 +22,15 @@ public class App
 // managing = creating + storing + injecting + lifecycle control
 // Because all this work is done by Spring, that object is called a:  // Spring Bean
 
+    // ApplicationContext is an interface which contains methods for getting and managing objects.
+    // Yes — it defines methods like getBean().
         ApplicationContext ac=new ClassPathXmlApplicationContext("com/spr/hello.xml");
         // ClassPathXmlApplicationContext is a class that implements ApplicationContext, reads the XML configuration file,
         //  and contains the Spring IoC container which creates and manages beans.
 
 
         // ac does NOT store Student objects
-        
+
         // ac stores the IoC container
         // The container internally stores beans
         // getBean() fetches the object from the container
